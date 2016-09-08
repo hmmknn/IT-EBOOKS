@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/enter_your_search_words_here"
+        android:id="@+id/textView"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_marginTop="38dp"
+        android:textColor="@color/colorPrimary"
+        android:typeface="normal"
+        tools:typeface="normal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/querytext"
+
+        android:layout_marginTop="26dp"
+        android:elevation="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_now"
+        android:id="@+id/searchbtn"
+        android:onClick="search"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        tools:typeface="normal"
+        android:padding="5dp"
+        android:layout_below="@+id/querytext"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="You can only use English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/searchbtn"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
