@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المكتبة البرمجية</string>
+    <string name="enter_your_search_words_here">"أدخل عبارة البحث هنا "</string>
+    <string name="search_now">بحث</string>
+    <string name="you_can_only_use_english">استخدم الانكليزية فقط  في عملية البحث</string>
+    <string name="books">نتائج الكتب</string>
+    <string name="book_details">تفاصيل الكتاب</string>
+</resources>

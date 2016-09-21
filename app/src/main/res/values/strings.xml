@@ -2,4 +2,7 @@
     <string name="app_name">IT-EBOOKS</string>
     <string name="search_now">Search Now</string>
     <string name="enter_your_search_words_here">Enter your Search Words here</string>
+    <string name="you_can_only_use_english">You can only use English</string>
+    <string name="books">Books</string>
+    <string name="book_details">Book Details</string>
 </resources>

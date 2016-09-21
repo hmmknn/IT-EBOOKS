@@ -6,7 +6,7 @@
 
 
     <TextView
-        android:text="You can only use English"
+        android:text="@string/you_can_only_use_english"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -54,10 +54,10 @@
         android:layout_height="50dp"
         android:id="@+id/querytext"
 
-        android:layout_marginTop="66dp"
+        android:layout_marginTop="63dp"
         android:elevation="12dp"
         android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

@@ -20,16 +20,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <AutoCompleteTextView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:id="@+id/querytext"
-
-        android:layout_marginTop="26dp"
-        android:elevation="12dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +37,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="You can only use English"
+        android:text="@string/you_can_only_use_english"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -58,6 +48,19 @@
         android:layout_marginTop="24dp"
         android:layout_below="@+id/searchbtn"
         android:layout_centerHorizontal="true" />
+
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/querytext"
+
+        android:layout_marginTop="22dp"
+        android:elevation="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp" />
 
 
 </RelativeLayout>
